@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, Helvetica, sans-serif;
+}
+
+article {
+    border-bottom: 2px solid gray;
+}
+
+article:not(:last-child) {
+    margin-bottom: 12px;
+}
