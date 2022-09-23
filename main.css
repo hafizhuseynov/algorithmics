@@ -13,3 +13,8 @@ article {
 article:not(:last-child) {
     margin-bottom: 12px;
 }
+
+article p{
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
