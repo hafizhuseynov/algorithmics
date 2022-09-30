@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.wrapper {
+    padding: 56px 36px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.6rem;
+    margin-bottom: 28px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+span {
+    line-height: 1.33;
+}
+
+span.title {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.course-container .content {
+    flex-basis: 40%;
+}
+
+.course-container .image-container {
+    max-width: 220px;
+    width: 48%;
+    margin: 0 auto;
+}
+
+.task-container .task-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.task-container .task-list li {
+    display: flex;
+    flex-direction: column;
+    max-width: 95px;
+    row-gap: 8px;
+}
+
+.task-container .image-container {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+
+    span {
+        font-size: 1.1rem;
+    }
+
+    span.title {
+        font-size: 1.5rem;
+    }
+
+
+    .course-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .course-container .image-container {
+        flex-basis: 25%;
+    }
+}
+
+@media (min-width: 1400px) {
+    h1 {
+        font-size: 5.5rem;
+    }
+
+    p {
+        font-size: 2.4rem;
+    }
+
+    span {
+        font-size: 1.8rem;
+    }
+
+    span.title {
+        font-size: 2.5rem;
+    }
+
+    .task-container {
+        display: flex;
+        align-items: center;
+        column-gap: 132px;
+    }
+
+    .task-container .task-list li {
+        max-width: 150px;
+    }
+
+    .task-container .image-container {
+        display: block;
+        flex-basis: 20%;
+    }
+
+
+    .course-container .content {
+        flex-basis: 60%;   
+    }
+}
+
+
